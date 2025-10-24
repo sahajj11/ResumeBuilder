@@ -1,5 +1,5 @@
 export const dummyData=[{
-    _id:"uguaghi",
+    _id:"jfbufhifhi",
     title:"my_res",
-    personal_info: { name: "Sahaj", email: "..." }
+    personal_info: { name: "Sahaj", email: "sahaj" }
 }]
