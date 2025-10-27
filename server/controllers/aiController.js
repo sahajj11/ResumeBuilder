@@ -66,6 +66,9 @@ export const enhanceJobDescription = async (req, res) => {
 
 //controller for uploading resume to database
 export const uploadResume = async (req, res) => {
+  console.log("BODY:", req.body);
+console.log("USER ID:", req.userId);
+
   try {
     const { resumeText,title } = req.body;
     const userId=req.userId

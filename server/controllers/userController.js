@@ -64,7 +64,7 @@ export const loginUser=async(req,res)=>{
 
 
 //controller to get user by id
-export const getUserById=async()=>{
+export const getUserById=async(req,res)=>{
     try{
         const userId=req.userId
 
@@ -87,8 +87,8 @@ export const getUserResume=async(req,res)=>{
     try{
         const userId=req.userId
 
-        const resume=Resume.find({userId})
-        return res.status(200).json({resume})
+        const resumes=await Resume.find({userId})
+        return res.status(200).json({resumes})
 
 
     }catch(err){

@@ -9,7 +9,7 @@ export const createResume=async(req,res)=>{
         const {title}=req.body
 
         const newResume=await Resume.create({userId,title})
-        return res.status(201).json({message:'resume created succesfully'} ,newResume)
+        return res.status(201).json({message:'resume created succesfully',newResume} )
 
     }catch(err){
         return res.status(400).json({message:err.message})
@@ -22,7 +22,7 @@ export const deleteResume=async(req,res)=>{
         const userId=req.userId
         const {resumeId}=req.params
 
-       await Resume.findOneAndDelete({userId,_id:resumeId})
+       const newResume=await Resume.findOneAndDelete({userId,_id:resumeId})
         return res.status(200).json({message:'resume deleted succesfully'} ,newResume)
 
     }catch(err){
@@ -72,7 +72,12 @@ export const updateResume=async(req,res)=>{
         const {resumeId,resumeData}=req.body
         const image=req.file
 
-        let resumeDataCopy=JSON.parse(resumeData)
+        let resumeDataCopy;
+        if(typeof resumeData==='string'){
+            resumeDataCopy=await JSON.parse(resumeData)
+        }else{
+            resumeDataCopy=structuredClone(resumeData)
+        }
 
         if(image){
             const imageBuffer=fs.createReadStream(image.path)
