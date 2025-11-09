@@ -1,6 +1,6 @@
 # Resume.io
 
-## 📞 AI-Powered Resume Builder
+##  AI-Powered Resume Builder
 
 **Resume.io** is a dedicated, full-stack resume creation platform built on the MERN stack, designed to help users generate professional resumes with ease. Integrated with Gemini AI, it assists users in crafting polished, job-ready resume content such as summaries, experience points, and skill descriptions.
 
