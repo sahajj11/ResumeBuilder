@@ -13,39 +13,17 @@
 
 ---
 
-🚀 Key Features
 
-AI-Generated Resume Content (Gemini-Powered)
-Generate professional summaries, experience descriptions, and skill points instantly using Gemini AI.
+## ✨ Key Features
 
-Multiple Modern & Clean Resume Templates
-Choose from a variety of professional, visually appealing templates.
-
-Accent Color Customization
-Personalize your resume with customizable accent colors.
-
-Instant PDF Download
-Export your resume instantly in high-quality PDF format.
-
-Sharable Public Link
-Generate a public link to easily share your resume with anyone.
-
-Fast, Smooth, and Minimal UI
-Enjoy a clean interface designed for a seamless and efficient user experience.
-
----
-
-## 🛠️ Tech Stack
-
-FaceConnect uses a robust, performance-optimized JavaScript stack, relying on real-time communication protocols.
-
-| Component | Technology | Role |
-| :--- | :--- | :--- |
-| **Real-Time Comm.**| **WebRTC** | Core technology enabling peer-to-peer video/audio streaming. |
-| **Signaling** | **Socket.io** | Used for real-time signaling between clients and the server (connection setup). |
-| **Frontend** | **[React / Next.js]** & JavaScript | Dynamic UI for the video chat rooms and controls. |
-| **Backend** | **Node.js** & **Express** | Fast server framework for handling signaling and business logic. |
-| **Database** | **MongoDB** & **Mongoose** | Used for user authentication and managing session/room data. |
+| Feature | Description |
+| :--- | :--- |
+| **🤖 AI-Generated Content (Gemini-Powered)** | Instantly generate professional **summaries**, tailored **job descriptions**, and relevant **skill content** using the power of Google's Gemini AI. |
+| **🎨 Modern & Clean Templates** | Choose from a selection of visually appealing, professional templates designed for clarity and maximum impact. |
+| **🌈 Accent Color Customization** | Personalize your resume's look with unique **accent color themes** to match your style or the company's branding. |
+| **⬇️ Instant PDF Download** | Export your finished resume in high-quality **PDF format** with a single click, ready for submission. |
+| **🔗 Sharable Public Link** | Generate a **public URL** for your resume, making it easy to share with recruiters and on social platforms. |
+| **⚡ Fast, Minimal & Responsive UI** | Enjoy a clean, intuitive interface designed for smooth, high-performance use on **all devices** (desktop, tablet, and mobile). |
 
 ---
 
