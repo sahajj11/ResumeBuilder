@@ -49,3 +49,12 @@ const Preview = () => {
 }
 
 export default Preview
+
+// vadodara
+// Software Engineer
+// https://www.linkedin.com/in/sahaj-rajput
+// https://sahaj-rajput.vercel.app/
+// Software Engineer skilled in full-stack development, building scalable web applications, and delivering clean, efficient solutions. Passionate about problem-solving and continuously learning new technologies.
+// Developed and maintained full-stack web applications using modern JavaScript frameworks, improving performance and user experience. Collaborated with cross-functional teams to deliver scalable, production-ready features.
+//Built a dynamic resume builder that allows users to create, edit, and download professional resumes using customizable templates. Implemented intuitive UI and efficient data handling for a smooth user experience.
+//Sahaj_Resume
